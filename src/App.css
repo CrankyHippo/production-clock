@@ -9,11 +9,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  min-height: 5vw;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -23,43 +19,38 @@
 }
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
   border: none;
   color: white;
-  padding: 15px 32px;
-  text-align: center;
-  display: inline-block;
-  font-size: 20px;
+  padding: 2vw 3.5vw;
+  font-size: 2.5vw;
   margin: 4px 2px;
   cursor: pointer;
 }
 
 .clock {
-  font-size: 10vw;
+  font-size: calc(30px + 2vmin);
   width: 100%;
   border: 10px solid green;
-  padding: 15px;
-  margin: 50%px;
+  padding: 10px;
+  margin: 20%px;
   color: white;
-  display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 .countdown {
-  font-size: 8vw;
+  font-size: calc(30px + 2vmin);
   color: rgb(255, 255, 255);
   width: 100%;
   border: 10px solid blueviolet;
-  padding: 15px;
-  margin: 30%px;
+  padding: 10px;
+  margin: 20%px;
 }
 
 .date {
-  font-size: 3vw;
-  text-align: center;
   color: rgb(255, 255, 255);
-  width: 60%;
+  width: 100%;
+  margin: 30%px;
+  font-size: 3vw;
 }
 
 .body {
