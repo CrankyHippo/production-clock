@@ -93,7 +93,7 @@ const Countdown = () => {
 
   return (
     <div>
-      <h2 className="countdown">Time Left {timer}</h2>
+      <h2 className="countdown">{timer}</h2>
       <button className="button" onClick={onClickReset}>
         RESET
       </button>
